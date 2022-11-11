@@ -1,8 +1,9 @@
-package com.checkr.interviews;
+package com.checkr.interviews.filtering.data;
 
-import com.checkr.interviews.data.DataProvider;
-import com.checkr.interviews.data.Filter;
-import com.checkr.interviews.data.Filterable;
+
+import com.checkr.interviews.filtering.exception.NoSuchEntryException;
+import com.checkr.interviews.filtering.Filter;
+import com.checkr.interviews.filtering.Filterable;
 
 import java.util.List;
 import java.util.Map;

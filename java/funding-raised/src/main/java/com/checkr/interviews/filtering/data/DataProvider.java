@@ -1,4 +1,6 @@
-package com.checkr.interviews.data;
+package com.checkr.interviews.filtering.data;
+
+import com.checkr.interviews.filtering.Filterable;
 
 import java.util.List;
 

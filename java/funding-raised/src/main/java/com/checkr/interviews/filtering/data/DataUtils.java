@@ -1,4 +1,4 @@
-package com.checkr.interviews.data;
+package com.checkr.interviews.filtering.data;
 
 import java.util.HashMap;
 import java.util.Map;

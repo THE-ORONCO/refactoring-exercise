@@ -1,5 +1,7 @@
 package com.checkr.interviews;
 
+import com.checkr.interviews.filtering.FundingRaised;
+import com.checkr.interviews.filtering.exception.NoSuchEntryException;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;

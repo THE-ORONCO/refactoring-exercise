@@ -1,10 +1,11 @@
-package com.checkr.interviews;
+package com.checkr.interviews.filtering;
 
-import com.checkr.interviews.data.CSVDataProvider;
+import com.checkr.interviews.filtering.exception.NoSuchEntryException;
+import com.checkr.interviews.filtering.data.CSVDataProvider;
+import com.checkr.interviews.filtering.data.DataFilterer;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -26,16 +27,6 @@ public class FundingRaised{
         return new DataFilterer<>(dataProvider);
     }
 
-    public static void main(String[] args) {
-        try {
-            Map<String, String> options = new HashMap<>();
-            options.put("company_name", "Facebook");
-            options.put("round", "a");
-            System.out.print(FundingRaised.where(options).size());
-        } catch (IOException e) {
-            System.out.print(e.getMessage());
-            System.out.print("error");
-        }
-    }
+
 }
 

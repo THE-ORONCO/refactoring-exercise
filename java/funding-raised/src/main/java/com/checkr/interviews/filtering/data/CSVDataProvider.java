@@ -1,5 +1,6 @@
-package com.checkr.interviews.data;
+package com.checkr.interviews.filtering.data;
 
+import com.checkr.interviews.filtering.Filterable;
 import com.opencsv.CSVReader;
 
 import java.io.File;
@@ -8,7 +9,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
-import static com.checkr.interviews.data.DataUtils.zip;
+import static com.checkr.interviews.filtering.data.DataUtils.zip;
 
 public class CSVDataProvider implements DataProvider<String, String, Filterable<String, String>> {
     private static final long HEADER_SIZE = 1L;
